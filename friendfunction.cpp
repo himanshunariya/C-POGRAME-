@@ -1,6 +1,6 @@
 // friend function
 #include<iostream>
-using namespace std;
+using namespace std; 
 class Test{
     private:
     friend Test Sum(Test, Test);
