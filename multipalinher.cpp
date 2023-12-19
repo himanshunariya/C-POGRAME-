@@ -1,12 +1,12 @@
 // multiple inheriatnace
-
 #include<iostream>
 using namespace std;
 class base1{
     protected:
     int a;
     public: 
-    void SetA(int x){
+    void SetA(int x)
+    {
         a = x;
     }
 };
@@ -14,7 +14,8 @@ class base2{
     protected:
     int b;
     public: 
-    void SetB(int x){
+    void SetB(int x)
+    {
         b = x;
     }
 };
@@ -22,7 +23,8 @@ class base2{
 class test : public base1, public base2
 {
     public:
-    int product(){
+    int product()
+    {
         return a * b; 
     }
 };
