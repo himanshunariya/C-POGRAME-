@@ -1,5 +1,4 @@
 // multilevel inheriatnace
-
 #include<iostream>
 using namespace std;
 class base1{
@@ -19,7 +18,6 @@ class base2 : public base1
         b = x;
     }
 };
-
 class test : public base2
 {
     public:
@@ -27,7 +25,6 @@ class test : public base2
         return a * b; 
     }
 };
-
 int main()
 {
     test t;
