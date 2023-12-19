@@ -19,7 +19,6 @@ class base2{
         b = x;
     }
 };
-
 class test : public base1, public base2
 {
     public:
@@ -28,7 +27,6 @@ class test : public base1, public base2
         return a * b; 
     }
 };
-
 int main()
 {
     test t;
