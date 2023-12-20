@@ -1,4 +1,4 @@
-// hybrid (virtual) inheritance
+// hybrid (virtual) inheritance....
 #include<iostream>
 using namespace std;
 class Base
@@ -11,7 +11,6 @@ class Base
         cin>>a;
     }
 };
-
 class Derived1 :public Base
 {
     protected:
@@ -39,8 +38,6 @@ class ABC :public Derived1, public Derived2
         cout<<"Product of a, b and c is: "<<a*b*c<<endl;
     }
 };
-
-
 int main()
 {
     ABC t;
