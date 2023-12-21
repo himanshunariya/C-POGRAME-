@@ -9,6 +9,7 @@ struct Buyer {
     string name;
     string mobileNumber;
     string dateofpurchase;
+    string todaytime;
 };
 int main() {
     int numItems;
@@ -24,6 +25,8 @@ int main() {
     Buyer buyer;
     cout << "ENTER THE DATE OF PURCHASE : ";
     getline(cin,buyer.dateofpurchase);
+     cout << "TODAY TIME IS : ";
+    getline(cin,buyer.todaytime);
     cout << "-------------------------------------------------\n";
     cout << "ENTER BUYER NAME: ";
     getline(cin, buyer.name);
