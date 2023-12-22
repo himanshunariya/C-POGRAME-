@@ -81,6 +81,7 @@ int main() {
            ****BUYER DETAILS****
 -------------------------------------------------
 ENTER THE DATE OF PURCHASE : 21-12-2024
+TODAY TIME IS : 04:30 PM
 -------------------------------------------------
 ENTER BUYER NAME: HIMANSHU
 ENTER BUYER MOBILE NUMBER: 7698797984
@@ -95,10 +96,10 @@ ENTER THE NAME OF ITEM 2: 7UP
 ENTER THE QUANTITY OF ITEM 2: 5 
 ENTER THE PRICE OF ITEM 2: 20
 -------------------------------------------------
-NAME       QUANTITY         PRICE        TOTAL
+NAME          QUANTITY       PRICE        TOTAL
 -------------------------------------------------
-COCO            1           $100           $100
-7UP             5           $20            $100
+COCO            1            $100          $100
+7UP             5            $20           $100
 -------------------------------------------------
 TOTAL COST (INCLUDING GST) IS : $  236
 -------------------------------------------------
@@ -111,4 +112,4 @@ NO CASE IS RETURNABLE ON ANY ITEMS.
 -------------------------------------------------
       ********THANK YOU VISIT AGAIN********
 -------------------------------------------------
-*/
+*/\\
