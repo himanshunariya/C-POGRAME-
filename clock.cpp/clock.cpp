@@ -44,7 +44,7 @@ int main()
         {
             h = 0;
         }
-        //cout <<"GOOD BY "<<endl;
+        cout <<"GOOD BY "<<endl;
     }
     return 0;
 }
