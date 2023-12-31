@@ -69,11 +69,21 @@ smaller_element = min(a[0], a[-1])
 print("Smaller element of first and last:", smaller_element)
 print("---------------------------------------------------------------------------------------")
 
-# Print the frequency of each element in the array
-frequency_dict = {}
-for num in a:
-    frequency_dict[num] = frequency_dict.get(num, 0) + 1
-print("Frequency of each element:", frequency_dict)
+# Print the frequency of each element in the arrayfrequency_dict = {}
+num1=3
+num2=5
+count_num1=0
+count_num2=0
+for i in range(0,len(a)):
+    if a[0]==num1 and a[0]==num2:
+         count_num1 += 1
+         count_num2 += 1
+         print('Frequency of', num1, 'is:', count_num1)
+         print('Frequency of', num2, 'is:', count_num2)
+# frequency_dict = {}
+# for num in a:
+#     frequency_dict[num] = frequency_dict.get(num, 0) + 1
+# print("Frequency of each element:", frequency_dict)
 print("---------------------------------------------------------------------------------------")
 
 # Print every other element, excluding the last element
