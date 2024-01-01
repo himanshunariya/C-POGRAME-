@@ -67,6 +67,6 @@ print("15.Reverse of the number 1234:", reverse_number)
 
 # Check if the number 12121 is a palindrome or not
 number = 12121
-is_number_palindrome = str(number) == str(number)[::-1]
-print("16.Is the number " + str(number) + " a palindrome: " + str(is_number_palindrome))
+number_palindrome = str(number) == str(number)[::-1]
+print("16.Is the number " + str(number) + " a palindrome: " + str(number_palindrome))
 

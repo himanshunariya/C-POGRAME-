@@ -9,7 +9,7 @@ def restaurant_menu():
     price = menu.get(item_name, None)
 
     if price is not None:
-        print("The price of {item_name} is ${price}.")
+        print("The price of {} is ${}.".format(item_name, price))
     else:
         print("We don't have that item in our menu.")
 

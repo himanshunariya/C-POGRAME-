@@ -27,6 +27,6 @@ print("----------")
     #number = number // 10
 
 #if temp == reverse:
-    print("Number is a palindrome number")
+    #print("Number is a palindrome number")
 #else:
     #print("Number is not a palindrome number")
