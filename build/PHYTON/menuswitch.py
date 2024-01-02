@@ -4,7 +4,6 @@ def restaurant_menu():
         "pizza": 12.99,
         "pasta": 8.99,
     }
-
     item_name = input("Enter the food item name: ")
     price = menu.get(item_name, None)
 
@@ -12,6 +11,5 @@ def restaurant_menu():
         print("The price of {} is ${}.".format(item_name, price))
     else:
         print("We don't have that item in our menu.")
-
-# Example usage:
 restaurant_menu()
+
