@@ -1,0 +1,45 @@
+from collections import deque
+a = [1, 2, 8, 8, 2, 8, 8, 8, 2]
+window = 3
+target = 8
+q = deque()
+freq = 0
+min_freq = float('inf')
+for i in range(window):
+    q.append(a[i])
+    if a[i] == target:
+        freq += 1
+min_freq = min(min_freq, freq)
+for i in range(window, len(a)):
+    q.append(a[i - window])  
+    if q[0] == target:
+        freq -= 1
+    q.pop()
+    q.append(a[i])
+    if a[i] == target:
+        freq += 1
+    min_freq = min(min_freq, freq)
+print('Minimum Frequency:', min_freq)
+#-------------------------------------------------------------------------------------
+from collections import deque
+a = [1, 2, 8, 8, 2, 8, 8, 8, 2]
+window = 3
+target = 8
+q = deque()
+freq = 0
+ans = freq
+for i in range(window):
+    q.append(a[i])
+    if a[i] == target:
+        freq += 1
+ans = max(ans, freq)
+for i in range(window, len(a)):
+    q.append(a[i - window])  
+    if q[0] == target:
+        freq -= 1
+    q.pop()
+    q.append(a[i])
+    if a[i] == target:
+        freq += 1
+    ans = max(ans, freq)
+print('Maximum Frequency:', ans)

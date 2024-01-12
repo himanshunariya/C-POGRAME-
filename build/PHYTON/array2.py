@@ -18,21 +18,21 @@ for eleme in a:
         freq_dict[eleme] += 1
     else:
         freq_dict[eleme] = 1
-sorted_freq_dict = dict(sorted(freq_dict.items()))
-print(sorted_freq_dict)
+sort_freq_dict = dict(sorted(freq_dict.items()))
+print(sort_freq_dict)
 # output is 
 #{1: 3, 2: 1, 3: 3, 5: 1, 6: 2, 8: 1, 9: 1, 10: 1}
 print("-----------------------------------------------------------------------")
 
 #3.get maximum frequency from dictionary?
-frequency_dict = {}
+freq_dict = {}
 for eleme in a:
-    if eleme in frequency_dict:
-        frequency_dict[eleme] += 1
+    if eleme in freq_dict:
+        freq_dict[eleme] += 1
     else:
-        frequency_dict[eleme] = 1
-max_frequency = max(frequency_dict.values())
-print("Maximum Frequency is :", max_frequency)
+        freq_dict[eleme] = 1
+max_freq = max(freq_dict.values())
+print("Maximum Frequency is :", max_freq)
 # output is 
 #Maximum Frequency is : 3
 print("-----------------------------------------------------------------------")
